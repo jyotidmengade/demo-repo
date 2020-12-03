@@ -1,0 +1,628 @@
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "172.39.0.0/16",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-2ab79f53",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-7b557510",
+                    "CidrBlock": "172.39.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "cms-networking-release",
+                    "Value": "2.3"
+                },
+                {
+                    "Key": "cms-networking-vdc-AutoValidation-Hash",
+                    "Value": ""
+                },
+                {
+                    "Key": "Name",
+                    "Value": "AWS-USEast-GBS-ForAnilGTesting"
+                },
+                {
+                    "Key": "cms-networking-vdc-connmodel",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-comments",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-AutoValidation",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-wkrainier-ou",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-circuit",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-connprovider",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-mcafee-unmanaged-ou",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-mcafee-managed-ou",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-tier",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-name",
+                    "Value": ""
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.1.0.0/16",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-06d96b9aa0b485ac8",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-057aeb346d36ddc03",
+                    "CidrBlock": "10.1.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "wk-devvpc_coe"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.235.20.0/24",
+            "DhcpOptionsId": "dopt-0b9bc76d",
+            "State": "available",
+            "VpcId": "vpc-611a7a06",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-b27af1db",
+                    "CidrBlock": "10.235.20.0/24",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/AWS-USEast-GBS-TO-RightScale-DevTest-CF/2d873030-597c-11e6-8c26-500c524058f2"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                },
+                {
+                    "Key": "SampleKey",
+                    "Value": "SampleValue"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "AWS-USEast-GBS-TO-RightScale-DevTest-CF"
+                },
+                {
+                    "Key": "maintenance_window",
+                    "Value": "Friday 0000-2359"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "AWS-USEast-GBS-TO-RightScale-DevTest"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.235.45.128/25",
+            "DhcpOptionsId": "dopt-0b9bc76d",
+            "State": "available",
+            "VpcId": "vpc-0514b74253bea12aa",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0247ac217a9c0f528",
+                    "CidrBlock": "10.235.45.128/25",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/AUSE1-GBS-VPC-D1-cloud--Stack/56f4acf0-b7b5-11e9-bf16-0a875441099a"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "AUSE1-GBS-VPC-D1-cloud-VPC-D"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "AUSE1-GBS-VPC-D1-cloud--Stack"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.235.108.0/23",
+            "DhcpOptionsId": "dopt-0b9bc76d",
+            "State": "available",
+            "VpcId": "vpc-5e50cc27",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-b5a62dde",
+                    "CidrBlock": "10.235.108.0/23",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "AWS-USEast-VmAutomation"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/AWS-USEast-VmAutomation/8bed1900-6885-11e7-a22c-500c288f18d1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "AWS-USEast-VmAutomation"
+                },
+                {
+                    "Key": "maintenance_window",
+                    "Value": "Friday 0000-2359"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.244.72.0/21",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-08214de03f3d4002f",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0c1e756f2e3c6ffcb",
+                    "CidrBlock": "10.244.72.0/21",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/AUSE1-GBS-RIGHTSCALE-DEVTest-D2-Stack/e09a49e0-f1f9-11ea-8c5e-0ad6b76236b1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "AUSE1-GBS-RIGHTSCALE-DEVTest-D2-Stack"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "AUSE1-GBS-RIGHTSCALE-DEVTest-D2-VPC-D"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.23.0.0/16",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-08d073318ebf891ae",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0530731519f370894",
+                    "CidrBlock": "10.23.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Test-SD"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "LaunchEC2instances"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "MyVPC"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/LaunchEC2instances/5d4d6770-90f2-11e9-b828-0e85eb8bafe8"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.235.96.0/25",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-be14bac6",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-6caa0806",
+                    "CidrBlock": "10.235.96.0/25",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "cms-networking-vdc-mcafee-managed-ou",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-comments",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-tier",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-connmodel",
+                    "Value": ""
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "AWS-US-East-test-vpc-stack"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/AWS-US-East-test-vpc-stack/8cc6be00-bee6-11e7-9a9d-500abe22848d"
+                },
+                {
+                    "Key": "cms-networking-release",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-connprovider",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-mcafee-unmanaged-ou",
+                    "Value": ""
+                },
+                {
+                    "Key": "Name",
+                    "Value": "AWS-US-East-test-vpc-VPC-D"
+                },
+                {
+                    "Key": "cms-networking-vdc-circuit",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-name",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-AutoValidation-Hash",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-wkrainier-ou",
+                    "Value": ""
+                },
+                {
+                    "Key": "cms-networking-vdc-AutoValidation",
+                    "Value": ""
+                }
+            ]
+        },
+        {
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-864ad0e1",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-dfc448b6",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true,
+            "Tags": [
+                {
+                    "Key": "maintenance_window",
+                    "Value": "Friday 0000-2359"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Add-Name-For-KenB"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.235.101.0/24",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-0c4e79801874dd98c",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-06a858cced4fe8d44",
+                    "CidrBlock": "10.235.101.0/24",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "NACL_test_VPC"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.244.64.0/21",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-01dbabe0fd8b8780f",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0c4dba31d91bd4b09",
+                    "CidrBlock": "10.244.64.0/21",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "AUSE1-GBS-RIGHTSCALE-DEVTest-D1-Stack"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "AUSE1-GBS-RIGHTSCALE-DEVTest-D1-VPC-D"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/AUSE1-GBS-RIGHTSCALE-DEVTest-D1-Stack/ceb95cb0-eee4-11ea-8237-12cf2806950f"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "192.168.1.0/24",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-0457a2f396d745c91",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-04940b31e0b5f8497",
+                    "CidrBlock": "192.168.1.0/24",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "AssociationId": "vpc-cidr-assoc-0a58d227718994fd3",
+                    "CidrBlock": "192.168.2.0/24",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "VPC1"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "192.168.2.0/24",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-0122462849e52bd3b",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-01cf404e577d8fb0f",
+                    "CidrBlock": "192.168.2.0/24",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "VPC2"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.235.96.0/25",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-0bceed9c4afd28721",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0fa05fac4ae2b0fd1",
+                    "CidrBlock": "10.235.96.0/25",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "az1-az1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "az1-az1-VPC-S"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/az1-az1/5a5c6310-1b4c-11ea-8090-12f8925a37c4"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.1.0.0/16",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-0f13c0294cb025c2b",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-05888c8b93ff195d1",
+                    "CidrBlock": "10.1.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "wk-devvpc"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.235.96.0/25",
+            "DhcpOptionsId": "dopt-9448cef0",
+            "State": "available",
+            "VpcId": "vpc-0758839a818fdf9d3",
+            "OwnerId": "185614922766",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-09bf3b97c1f1c5220",
+                    "CidrBlock": "10.235.96.0/25",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:185614922766:stack/az2-az2/1707cb80-1b4d-11ea-8184-1253d15d20e2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "az2-az2"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Vpc"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "az2-az2-VPC-S"
+                }
+            ]
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "47978fc5-920f-44f1-be5e-0253eb06534a",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "47978fc5-920f-44f1-be5e-0253eb06534a",
+            "content-type": "text/xml;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "vary": "accept-encoding",
+            "date": "Mon, 02 Nov 2020 07:25:40 GMT",
+            "server": "AmazonEC2"
+        },
+        "RetryAttempts": 0
+    }
+}

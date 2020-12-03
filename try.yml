@@ -1,0 +1,87 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  AWS CloudFormation Sample Template that shows how to increase the size of the root volume. **WARNING** This template creates an Amazon EC2 instance. You will be billed for the AWS resource used if you create a stack from this template.
+Parameters:
+  #Iops:
+  #  ConstraintDescription: This parameter is valid only for Provisioned IOPS SSD (io1 and io2) volumes.
+  #  Description: This parameter is required for requests to create io1 and io2 volumes; it is not used in requests to create gp2, st1, sc1, or standard volumes.
+  #  Type: Number
+             
+  DiskVolumeSize:
+    Default: 32
+    Description: Disk volume size in GB. Must be at least 32.
+    ConstraintDescription: Must be a number greater or equal to 32
+    MinValue: 32
+    Type: Number
+  DiskVolumeType:
+    Default: gp2
+    Description: Choose Disk type.
+    ConstraintDescription: Choose type
+    Type: String
+    AllowedValues: 
+      - gp2
+      - io1
+      - io2
+      - standard
+  KeyName:
+    Type: 'AWS::EC2::KeyPair::KeyName'
+    Description: Name of an existing EC2 KeyPair to enable SSH access to the EC2 instance.
+
+Conditions:
+  CreategpResources: !Equals [!Ref DiskVolumeType, "gp2"]
+  CreateioResources: !Equals [!Ref DiskVolumeType, "io1"]   
+ # CreateDevResources: !Equals [!Ref DiskVolumeType, "io2"]    
+ 
+ 
+Resources:
+  EC2SecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+        GroupDescription: Allow http to client host 
+        SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0 
+  LinuxInstance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-04bf6dcdc9ab498ca
+      SecurityGroups:
+        - !Ref EC2SecurityGroup 
+      Tags:
+        - Key: Name
+          Value: My EC2 Instance
+        - Key: Type
+          Value: Worker Instancess
+      KeyName: !Ref KeyName
+      
+      BlockDeviceMappings:
+        - DeviceName: /dev/xvda
+          Ebs:
+            Iops: 100
+            VolumeSize: !Ref DiskVolumeSize
+            VolumeType: !Ref DiskVolumeType
+        
+        
+        
+      
+                  
+        
+  #MountPoint:
+  #  Type: "AWS::EC2::Instance"
+  #  Condition: CreateioResources
+  #  Properties:
+  #    VolumeSize: !Ref DiskVolumeSize
+  #    VolumeType: !Ref DiskVolumeType
+  #    Device: /dev/xvda
+  #    Iops: 1000
+  #  Type: "AWS::EC2::VolumeAttachment"
+  #  Condition: CreateioResources
+  #  Properties:
+  #    VolumeSize: !Ref DiskVolumeSize
+  #    VolumeType: !Ref DiskVolumeType
+  #    Iops: 1000
+  #    Device: /dev/xvda
+ 
